@@ -11,10 +11,12 @@ OctoSense renders in its own sandboxed isolate. No native code.
 ```
 camera-card/
   manifest.json     identity, version, what the app may do (signed by the publisher)
+  listing.json      what the store shows: description, category, platforms, publisher
   page.card         the L0 card
   page.data.json    the bound data; artwork by bundle-relative path
   kit/              the kit the card is lowered with
   assets/           six SVG icons, shipped with the app
+  screenshots/      the picture the store shows
 ```
 
 ## What it is allowed to do
