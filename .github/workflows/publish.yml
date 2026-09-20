@@ -1,0 +1,20 @@
+# Publishes camera-card to the OctoSense app hub on every GitHub release.
+# The build signs as itself; no key is stored in this repository.
+# NOTE: octosense-org/publish-app does not exist yet; until it does, publishing
+# is the manual path in AGENTS.md (hub stamp / check / sign-manifest, then an
+# index entry on the hub).
+name: Publish to the OctoSense hub
+on:
+  release:
+    types: [published]
+permissions:
+  id-token: write
+  contents: read
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: octosense-org/publish-app@v1
+        with:
+          bundle: camera-card
