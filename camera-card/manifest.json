@@ -7,10 +7,10 @@
   },
   "id": "camera-card",
   "integrity": {
-    "bundle_blake3": "c04292f3b2821762db0822224372d75a9fc7de5fd565f2059ada77a946ea64f0",
+    "bundle_blake3": "086b3cb2f4d06f66b9930825f3761f3c98d0bcd92565e558e5ec9f01683cde7d",
     "signature": {
       "key_id": "ymote",
-      "value": "e251a4af9462fb9c4e4d259e62d9fad532eeb59bd08f77408446cc014bd1236a0b1892a7d36f397b580ced4bf180c23117ef123898e2ff4a625909a789990005"
+      "value": "cefa82d4460e666f45ead67e75d0f84d930a275599468c2437816acce02dcfa13a7a03552e01fcfcd229d77853627daa6b4a13be349ea257a73a59f59a6ec60b"
     }
   },
   "name": "Camera",
@@ -21,5 +21,5 @@
   "storage": {
     "max_bytes": 262144
   },
-  "version": "1.0.1"
+  "version": "1.0.2"
 }
