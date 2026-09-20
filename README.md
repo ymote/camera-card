@@ -35,7 +35,7 @@ hub sign-manifest camera-card --key ~/.octosense/publisher-keys/ymote.key --key-
 hub check camera-card --publisher-key ymote=<public key>
 ```
 
-It is listed in the hub at https://github.com/ymote/octosense-app-hub.
+It is listed in the hub at https://github.com/OctoSense-org/octosense-app-hub.
 
 ## Source
 
