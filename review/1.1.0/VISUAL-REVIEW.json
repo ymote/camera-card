@@ -1,0 +1,38 @@
+{
+  "schema": 1,
+  "status": "passed",
+  "source_receipt_sha256": "e721d9d59f2f479a5c85decae84bee38392cf776fbd6c290a166720399da7aa5",
+  "host_base_source": "5e1a8414cba4c9c3ab041b5555b6d90bcbad03bb",
+  "host_dependency_pin_revision": "1f8958508097394336633ee53c0f03e0dd00ae38",
+  "app_hub_revision": "5a4b3afe02ed9ddbd4f33849b7dd1970d0b4fa4e",
+  "binary_sha256": "d79ad93506698bce0baafeac0c777c4d4639e37a30430f120ccb64849fe5bb31",
+  "native_checks_passed": 9,
+  "visual_review": {
+    "panel_relative_placement": true,
+    "complete_shutter_after_native_wheel": true,
+    "scroll_clipped_to_app_pane": true,
+    "chinese_labels_legible": true,
+    "restart_preserves_rendering": true
+  },
+  "captures": [
+    {
+      "name": "first/02-before-scroll.png",
+      "sha256": "f17f175eae8a52302678ca970805a830609ed44e0c24e07c69a4abe60ecaaa6b"
+    },
+    {
+      "name": "first/02-installed-camera.png",
+      "sha256": "8c776148b3ffe101746c689de9be76e208da6459e2a75bdac938a1900042df4b"
+    },
+    {
+      "name": "restart/04-library-reopen.png",
+      "sha256": "09e03d198f18c166f2ae328fa57282aed894a60ec712d321b957e7d42512256b"
+    }
+  ],
+  "limits": [
+    "static zero-capability camera UI demo; no camera device access",
+    "genuine GitHub publisher proof in a temporary local catalog; no production admission claim",
+    "instrument-driven input; no physical approval claim",
+    "incremental native shell with unchanged staged5e resources; not a versioned RC package"
+  ],
+  "owned_processes_stopped": true
+}
