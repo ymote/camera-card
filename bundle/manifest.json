@@ -1,0 +1,21 @@
+{
+  "agent": null,
+  "capabilities": [],
+  "compute": {
+    "instruction_budget": 5000000,
+    "memory_bytes": 33554432
+  },
+  "id": "io.github.ymote.cameracard",
+  "integrity": {
+    "bundle_blake3": "dafe2b43f1e9df258ae7e9f040ca9a1b59bd4c324e853334641b84f670390826"
+  },
+  "name": "Camera Card Demo",
+  "network": {
+    "hosts": []
+  },
+  "schema": 1,
+  "storage": {
+    "max_bytes": 262144
+  },
+  "version": "1.1.0"
+}
