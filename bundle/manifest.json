@@ -7,7 +7,7 @@
   },
   "id": "io.github.ymote.cameracard",
   "integrity": {
-    "bundle_blake3": "dafe2b43f1e9df258ae7e9f040ca9a1b59bd4c324e853334641b84f670390826"
+    "bundle_blake3": "96ff87019124f8a19c3065c3706748c6e5faf7cd048cf9da0424998d292080ab"
   },
   "name": "Camera Card Demo",
   "network": {
@@ -17,5 +17,5 @@
   "storage": {
     "max_bytes": 262144
   },
-  "version": "1.1.0"
+  "version": "1.1.1"
 }
