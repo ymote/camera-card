@@ -1,46 +1,25 @@
-# Camera card
+# Camera Card Demo
 
-The Mate 70 Air camera replica's photo-mode screen, packaged as an OctoSense
-**card app**: a bundle of L0 card text, data, a kit and its artwork that
-OctoSense renders in its own sandboxed isolate. No native code.
+English | [简体中文](README.zh-CN.md)
 
-![The camera card rendered headless in the reference host](docs/screenshot.png)
+A static OctoScript L0 camera screen demonstrating local artwork, Chinese labels and App Hub publishing. Its camera-style controls do not take photos or change settings. It requests no capabilities, contacts no network host and has no assistant.
 
-## Layout
+The exported layout comes from the camera storyboard's photo scene in the historical Octoscript-AppCard image-to-card flow. This edition fixes its font paths to use portable built-in Chinese fonts.
 
-```
-camera-card/
-  manifest.json     identity, version, what the app may do (signed by the publisher)
-  listing.json      what the store shows: description, category, platforms, publisher
-  page.card         the L0 card
-  page.data.json    the bound data; artwork by bundle-relative path
-  kit/              the kit the card is lowered with
-  assets/           six SVG icons, shipped with the app
-  screenshots/      the picture the store shows
-```
+## Source and releases
 
-## What it is allowed to do
+The editable app lives in bundle/. PRIVACY.md describes its data boundary; review/ holds acceptance evidence outside the app. The new identity is io.github.ymote.cameracard. Historical camera-card releases remain unchanged and separate; this is not an update to an existing installation.
 
-Nothing beyond drawing its screen. The manifest requests no capabilities and
-no hosts, 256 KB of storage, a budget of five million script instructions and
-a 32 MB heap. The OctoSense store shows exactly this to a person before they
-install.
+The initial target is macOS. Android and other platforms require separate acceptance before being added to the listing.
 
 ## Publishing
 
-See `AGENTS.md` for the rules and commands. This app was checked, scanned and
-published with:
+Open an [App Hub issue](https://github.com/OctoSense-org/OctoSense-App-Hub/issues) following the [submission guide](https://github.com/OctoSense-org/OctoSense-App-Hub/blob/main/docs/SUBMITTING.md). The issue can precede the release; include repository, version, permissions, screenshots and current validation status.
 
-```sh
-hub stamp camera-card
-hub sign-manifest camera-card --key ~/.octosense/publisher-keys/ymote.key --key-id ymote
-hub check camera-card --publisher-key ymote=<public key>
-```
+The workflow installed by tools/octo publish-github checks and attests a new vVERSION tag, then creates app.bundle.pack.json and a release receipt. No developer signing key or repository signing secret is needed. Keep source editable and use the sealed release pack for review and installation. Never restamp it or move an existing tag.
 
-It is listed in the hub at https://github.com/OctoSense-org/octosense-app-hub.
+A successful release is not Hub admission. Add its evidence to the issue; an administrator reviews the exact candidate before catalog publication. Installation requires a compatible OctoSense host supporting publisher-github-v1 (contract 1.8.0).
 
-## Source
+## Validation status
 
-The card was compiled by the image-to-appcard flow from the storyboard in
-`Octoscript-AppCard`, `apps/camera` (scene 1, 拍照). Edit it there and
-re-export; do not hand-edit `page.card`.
+The unsigned bundle passes admission. Native macOS captures at 406 by 776 and 900 by 800 logical points were inspected with system fonts disabled. Invalid font paths and half-scale export geometry are corrected. This remains a fixed-artboard static demo; wider windows leave unused space. GitHub proof and public Hub install/update acceptance are pending. See review/ANSWERS.md; no working camera or account connection is claimed.

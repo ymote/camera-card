@@ -1,0 +1,40 @@
+{
+  "schema": 1,
+  "author": "Codex; layout retained from historical camera storyboard",
+  "driver": "Codex via native Makepad instrument",
+  "host_sha256": "c6da88e9405df98bd2d0e916688b3ba6877f83d3e428fae43008cafe526a8c99",
+  "host_source": "90780ca5",
+  "system_fonts": false,
+  "scope": "Unsigned native source preflight before GitHub attestation; listing and screenshot added afterward without UI code changes",
+  "captures": [
+    {
+      "size": "406x776",
+      "png_sha256": "0bf000d12a5434cd29d7e745bc4eaaae22df93aa948cc8444bb30011ce5ec851",
+      "nodes": 78
+    },
+    {
+      "size": "900x800",
+      "png_sha256": "fd18af26c12703973ae9157f7c098ae5998f7fab4ea670940d16ffaaab232048",
+      "nodes": 78
+    }
+  ],
+  "status": "source_render_reviewed",
+  "bundle_files_sha256": {
+    "assets/ai_compose_icon-1d3b9e87f8b9.svg": "1d3b9e87f8b9032632f7522284e4a565b23f7ecae193757ad790b5249ad10072",
+    "assets/filter_icon-6eee1ff89ed0.svg": "6eee1ff89ed03065ba6ae219e4d934625e55c610c272be5d38274a4f781b3d5b",
+    "assets/flash_icon-5211f51b665e.svg": "5211f51b665e15c3bfee8ce90c3b06e1f48e558fb05c03814f4ac48c2ca59fae",
+    "assets/icon.svg": "5b7a491631c187ddf957f128374255182fcad49881b9564501bbec86ac77d710",
+    "assets/live_photo_icon-aef383e35f6c.svg": "aef383e35f6c947c95bea76f56b18309dcd686417107a5441c2030383dbb7f0d",
+    "assets/switch_camera_icon-81bb2e5a07e6.svg": "81bb2e5a07e63fd6049f90fbf8a98ede7bdd3b6ff515067fe7bcc17a7a3e1221",
+    "assets/treasure_handle_icon-ba2aab369353.svg": "ba2aab369353e7c3ac04967d8f527f7f0ae0b97ccbe5e79ab43017835c9fccbb",
+    "kit/native/light/components.l0": "17f2cc8cabf46075815b5ba720c73c359202998f4bb09d5b104d76bbd3309061",
+    "kit/native/light/kit.json": "f0ad7e0c1950bb2ed07de1c4d02a4e1d376bdafb74616631f5456bbb12d67ba6",
+    "listing.json": "5045407727cec8635f01cda49849947d3278ab4867980129ec7d2866276b14ba",
+    "manifest.json": "152c592fc8b332ed908eb4e31e895528dea1af4ddc648a17689c1e8bc217ef27",
+    "page.card": "9af92bf76815a103796dd21bcfe5b19c1d7b457b3ea7689cd64771044b2afd96",
+    "page.data.json": "c1a14a94aa91cb2750acd66f642d13156d1af3eb4d7766001322f22eb753b3ea",
+    "screenshots/01-photo-mode.png": "55477b76e5e1fa59a42aa5d003226387607a6041f569f7b4ec68d5bb382a5093"
+  },
+  "visual_review": "Codex inspected both original native captures; full Chinese strings rendered; fixed artboard leaves unused area in larger window",
+  "owned_processes_stopped": true
+}

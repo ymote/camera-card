@@ -19,7 +19,7 @@
       "property": "bg"
     },
     "radius_b7edbb1d306a": {
-      "value": 9.0,
+      "value": 18.0,
       "property": "radius"
     },
     "bg_0482a0b3b449": {
@@ -27,7 +27,7 @@
       "property": "bg"
     },
     "size_b259b971e528": {
-      "value": 5.25,
+      "value": 10.5,
       "property": "size"
     },
     "weight_99ee50221221": {
@@ -39,11 +39,11 @@
       "property": "tracking"
     },
     "line_height_00be2099320b": {
-      "value": 8.9665,
+      "value": 17.933,
       "property": "line_height"
     },
     "font_src_1fd5156f9fb4": {
-      "value": "self:resources/service/NotoSansSC-Bold.ttf",
+      "value": "makepad_widgets:resources/LXGWWenKaiBold.ttf",
       "property": "font_src"
     },
     "color_f807212b6748": {
@@ -63,15 +63,15 @@
       "property": "bg"
     },
     "radius_f1e42019aecc": {
-      "value": 10.0,
+      "value": 20.0,
       "property": "radius"
     },
     "size_a22eea496bce": {
-      "value": 6.5,
+      "value": 13.0,
       "property": "size"
     },
     "line_height_282d72c91199": {
-      "value": 8.8165,
+      "value": 17.633,
       "property": "line_height"
     },
     "font_asc_c5ab71f64cf9": {
@@ -91,7 +91,7 @@
       "property": "color"
     },
     "line_height_d1fbbca7608e": {
-      "value": 8.901,
+      "value": 17.802,
       "property": "line_height"
     },
     "font_asc_37d75db75786": {
@@ -99,7 +99,7 @@
       "property": "font_asc"
     },
     "line_height_0bd0527fa756": {
-      "value": 8.992,
+      "value": 17.984,
       "property": "line_height"
     },
     "font_desc_ad6ba26fc64e": {
@@ -107,7 +107,7 @@
       "property": "font_desc"
     },
     "line_height_5709a4e05048": {
-      "value": 8.907499999999999,
+      "value": 17.814999999999998,
       "property": "line_height"
     },
     "font_desc_04208e7c0892": {
@@ -115,7 +115,7 @@
       "property": "font_desc"
     },
     "size_7b1bd53949b7": {
-      "value": 8.0,
+      "value": 16.0,
       "property": "size"
     },
     "weight_0604cd3138fe": {
@@ -123,11 +123,11 @@
       "property": "weight"
     },
     "line_height_11589dd7bd23": {
-      "value": 11.504,
+      "value": 23.008,
       "property": "line_height"
     },
     "font_src_07b7645af6b4": {
-      "value": "self:resources/service/NotoSansSC-Medium.ttf",
+      "value": "makepad_widgets:resources/LXGWWenKaiRegular.ttf",
       "property": "font_src"
     },
     "color_d2ea721802d3": {
@@ -143,7 +143,7 @@
       "property": "font_desc"
     },
     "line_height_26d174a4f00d": {
-      "value": 11.424,
+      "value": 22.848,
       "property": "line_height"
     },
     "font_asc_e4c61914589e": {
@@ -155,7 +155,7 @@
       "property": "font_desc"
     },
     "line_height_8bb73c427497": {
-      "value": 11.418,
+      "value": 22.836,
       "property": "line_height"
     },
     "font_asc_d4273ef7743e": {
@@ -167,7 +167,7 @@
       "property": "font_desc"
     },
     "line_height_1ae1ca297162": {
-      "value": 11.559999999999999,
+      "value": 23.119999999999997,
       "property": "line_height"
     },
     "font_asc_01d2e6089a0b": {
@@ -179,7 +179,7 @@
       "property": "font_desc"
     },
     "line_height_9635ea462610": {
-      "value": 11.44,
+      "value": 22.88,
       "property": "line_height"
     },
     "font_desc_393e061ed49e": {
@@ -187,7 +187,7 @@
       "property": "font_desc"
     },
     "line_height_04baa82f0046": {
-      "value": 11.48,
+      "value": 22.96,
       "property": "line_height"
     },
     "font_asc_86da207ecca5": {
@@ -199,7 +199,7 @@
       "property": "font_desc"
     },
     "line_height_6fe2215f79bc": {
-      "value": 11.463999999999999,
+      "value": 22.927999999999997,
       "property": "line_height"
     },
     "font_asc_5fbb756fda50": {
@@ -215,7 +215,7 @@
       "property": "bg"
     },
     "radius_d84bdb34d4ee": {
-      "value": 2.0,
+      "value": 4.0,
       "property": "radius"
     },
     "bg_f807212b6748": {
@@ -223,7 +223,7 @@
       "property": "bg"
     },
     "radius_56824d16dcb6": {
-      "value": 11.0,
+      "value": 22.0,
       "property": "radius"
     },
     "bg_adfd2de69231": {
@@ -231,7 +231,7 @@
       "property": "bg"
     },
     "radius_86e298f48d0a": {
-      "value": 10.25,
+      "value": 20.5,
       "property": "radius"
     },
     "bg_9bef3e8619dc": {
@@ -239,15 +239,15 @@
       "property": "bg"
     },
     "radius_e38e216cb55b": {
-      "value": 16.0,
+      "value": 32.0,
       "property": "radius"
     },
     "radius_6978e2340a85": {
-      "value": 14.5,
+      "value": 29.0,
       "property": "radius"
     },
     "radius_77c52f3feed5": {
-      "value": 12.0,
+      "value": 24.0,
       "property": "radius"
     },
     "bg_0d6d9cabc4ff": {
@@ -358,7 +358,7 @@
     "Group0e9585cd3264": {
       "style": {
         "t": "stack",
-        "border": 0.7,
+        "border": 1.4,
         "bordercolor": 4294967295
       },
       "props": {},
@@ -971,7 +971,7 @@
         "radius": {
           "$token": "radius_56824d16dcb6"
         },
-        "border": 0.7,
+        "border": 1.4,
         "bordercolor": 4294967295
       },
       "props": {},

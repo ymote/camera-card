@@ -1,0 +1,3 @@
+io.github.ymote.cameracard 1.1.0 — PASSED
+  [warning] publisher-signature: unsigned: accountability rests on the hub alone
+  grants: capabilities {}, hosts {}, storage none, agent none
