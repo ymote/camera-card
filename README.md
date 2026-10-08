@@ -22,4 +22,8 @@ A successful release is not Hub admission. Add its evidence to the issue; an adm
 
 ## Validation status
 
-The unsigned bundle passes admission. Native macOS captures at 406 by 776 and 900 by 800 logical points were inspected with system fonts disabled. Invalid font paths and half-scale export geometry are corrected. This remains a fixed-artboard static demo; wider windows leave unused space. GitHub proof and public Hub install/update acceptance are pending. See review/ANSWERS.md; no working camera or account connection is claimed.
+The unsigned bundle passes admission. Native macOS captures at 406 by 776 and 900 by 800 logical points were inspected with system fonts disabled. Invalid font paths and half-scale export geometry are corrected. This remains a fixed-artboard static demo; wider windows leave unused space.
+
+The genuine GitHub-attested 1.1.0 release passed [nine installed native checks](review/1.1.0/INSTALLED-NATIVE.json) on a compatible source host, with a temporary local Hub. Testing exposed a host placement and scrolling bug, fixed in [App Hub #162](https://github.com/OctoSense-org/OctoSense-App-Hub/pull/162). [Original captures and visual review](review/1.1.0/VISUAL-REVIEW.json) confirm Chinese labels, pane-relative placement, wheel scrolling to the complete shutter, a static control click and reopening after restart. The receipt names the exact host source and binary.
+
+Public catalog admission and install/update checks remain pending. This test is separate from a versioned host release. See [review answers](review/ANSWERS.md); no working camera or account connection is claimed.

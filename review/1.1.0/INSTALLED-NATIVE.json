@@ -1,0 +1,23 @@
+{
+  "schema": 1,
+  "app_id": "io.github.ymote.cameracard",
+  "version": "1.1.0",
+  "shell_source": "1f8958508097394336633ee53c0f03e0dd00ae38",
+  "binary_sha256": "d79ad93506698bce0baafeac0c777c4d4639e37a30430f120ccb64849fe5bb31",
+  "publisher": "genuine-github-proof",
+  "catalog": "temporary-local-legacy-before-production-admission",
+  "personal_accounts": false,
+  "checks": [
+    "optional_hub_agent_declined",
+    "search_by_new_app_id",
+    "install_via_permission_sheet",
+    "signed_app_renders_chinese",
+    "canvas_and_viewfinder_follow_nonzero_host_origin",
+    "native_wheel_reveals_complete_bottom_control_within_pane",
+    "full_publisher_proof_and_zero_capabilities_preserved",
+    "static_control_does_not_open_camera_or_exit",
+    "reopens_installed_app_after_process_restart"
+  ],
+  "status": "passed_pending_visual_review",
+  "owned_processes_stopped": true
+}
